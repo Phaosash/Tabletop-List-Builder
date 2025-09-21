@@ -1,0 +1,13 @@
+﻿<Window x:Class="Core_UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Core_UI"
+        xmlns:ctrls="clr-namespace:Core_UI.Views"
+        mc:Ignorable="d"
+        Title="Tabletop Army List Builder" Height="768" Width="1360">
+    <Grid>
+        <ctrls:WelcomeScreen />
+    </Grid>
+</Window>
