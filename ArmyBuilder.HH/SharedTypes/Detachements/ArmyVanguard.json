@@ -1,0 +1,19 @@
+{
+    "detachment_name": "Army Vanguard Detachment",
+    "detachment_category": "Apex",
+    "detachment_restriction": "",
+    "detachment_slots": [
+        {
+            "slot_type": "prime",
+            "unit_type": "Elites"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Elites"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Elites"
+        }
+    ]
+}

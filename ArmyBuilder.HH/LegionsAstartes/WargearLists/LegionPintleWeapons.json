@@ -1,0 +1,40 @@
+{
+    "options": [
+        {
+            "name": "Pintle Mounted combi-bolter",
+            "cost": 5
+        },
+        {
+            "name": "Pintle Mounted combi-flamer",
+            "cost": 10
+        },
+        {
+            "name": "Pintle Mounted combi-plasma",
+            "cost": 10
+        },
+        {
+            "name": "Pintle Mounted combi-melta",
+            "cost": 10
+        },
+        {
+            "name": "Pintle Mounted combi-volkite",
+            "cost": 10
+        },
+        {
+            "name": "Pintle Mounted havoc launcher",
+            "cost": 5
+        },
+        {
+            "name": "Pintle Mounted heavy bolter",
+            "cost": 10
+        },
+        {
+            "name": "Pintle Mounted heavy flamer",
+            "cost": 10
+        },
+        {
+            "name": "Pintle Mounted multi-melta",
+            "cost": 25
+        }
+    ]
+}

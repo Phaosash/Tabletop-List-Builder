@@ -1,0 +1,64 @@
+{
+    "options": [
+        {
+            "name": "Bolt Pistol",
+            "cost": 0
+        },
+        {
+            "name": "Chainsword",
+            "cost": 0
+        },
+        {
+            "name": "Bolter",
+            "cost": 5
+        },
+        {
+            "name": "Volkite serpenta",
+            "cost": 5
+        },
+        {
+            "name": "Hand flamer",
+            "cost": 5
+        },
+        {
+            "name": "Plasma pistol",
+            "cost": 5
+        },
+        {
+            "name": "Disintegrator pistol",
+            "cost": 5
+        },
+        {
+            "name": "Chainaxe",
+            "cost": 0
+        },
+        {
+            "name": "Charnabal sabre",
+            "cost": 5
+        },
+        {
+            "name": "Power weapon",
+            "cost": 10
+        },
+        {
+            "name": "Power fist",
+            "cost": 15
+        },
+        {
+            "name": "Lightning claw",
+            "cost": 10
+        },
+        {
+            "name": "Thunder Hammer",
+            "cost": 15
+        },
+        {
+            "name": "Combat Shield",
+            "cost": 0
+        },
+        {
+            "name": "Boarding shield",
+            "cost": 5
+        }
+    ]
+}

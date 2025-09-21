@@ -1,0 +1,23 @@
+{
+    "detachment_name": "Armoured Support",
+    "detachment_category": "Auxiliary",
+    "detachment_restriction": "none",
+    "detachment_slots": [
+        {
+            "slot_type": "standard",
+            "unit_type": "Armour"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Armour"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Armour"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Armour"
+        }
+    ]
+}

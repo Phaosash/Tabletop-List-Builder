@@ -1,0 +1,87 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Detachments\ApothicarionDelegation.json" />
+    <None Remove="Detachments\DaemonicManifestation.json" />
+    <None Remove="Detachments\ReconDemiCompany.json" />
+    <None Remove="Detachments\StormBattery.json" />
+    <None Remove="Detachments\TechmarineCovernant.json" />
+    <None Remove="Detachments\VetweanCadre.json" />
+    <None Remove="HeavyAssaultUnits\SaturnineTerminatorSquad.json" />
+    <None Remove="WargearLists\LegionCombiWeapons.json" />
+    <None Remove="WargearLists\LegionDecurion.json" />
+    <None Remove="WargearLists\LegionEquipment.json" />
+    <None Remove="WargearLists\LegionHeavyWeapons.json" />
+    <None Remove="WargearLists\LegionOfficerWargear.json" />
+    <None Remove="WargearLists\LegionPintleWeapons.json" />
+    <None Remove="WargearLists\LegionPistols.json" />
+    <None Remove="WargearLists\LegionSergeantMeleeWeapons.json" />
+    <None Remove="WargearLists\LegionSpecialWeapons.json" />
+    <None Remove="WargearLists\LegionSponsonWeapons.json" />
+    <None Remove="WargearLists\LegionTerminatorWeapons.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Detachments\ApothicarionDelegation.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Detachments\DaemonicManifestation.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Detachments\ReconDemiCompany.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Detachments\StormBattery.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Detachments\TechmarineCovernant.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Detachments\VetweanCadre.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="HeavyAssaultUnits\SaturnineTerminatorSquad.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="WargearLists\LegionCombiWeapons.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="WargearLists\LegionDecurion.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="WargearLists\LegionEquipment.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="WargearLists\LegionHeavyWeapons.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="WargearLists\LegionOfficerWargear.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="WargearLists\LegionPintleWeapons.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="WargearLists\LegionPistols.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="WargearLists\LegionSergeantMeleeWeapons.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="WargearLists\LegionSpecialWeapons.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="WargearLists\LegionSponsonWeapons.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="WargearLists\LegionTerminatorWeapons.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

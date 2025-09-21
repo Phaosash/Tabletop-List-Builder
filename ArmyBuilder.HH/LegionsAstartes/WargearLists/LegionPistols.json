@@ -1,0 +1,16 @@
+{
+    "options": [
+        {
+            "name": "Plasma pistol",
+            "cost": 5
+        },
+        {
+            "name": "Hand flamer",
+            "cost": 15
+        },
+        {
+            "name": "Volkite serpenta",
+            "cost": 15
+        }
+    ]
+}

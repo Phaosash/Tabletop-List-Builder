@@ -1,0 +1,20 @@
+{
+    "options": [
+        {
+            "name": "Lightning claw",
+            "cost": 5
+        },
+        {
+            "name": "Power fist",
+            "cost": 10
+        },
+        {
+            "name": "Chainfist",
+            "cost": 10
+        },
+        {
+            "name": "Thunder hammer",
+            "cost": 10
+        }
+    ]
+}

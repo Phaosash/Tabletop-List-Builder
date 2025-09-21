@@ -1,0 +1,19 @@
+{
+    "detachment_name": "Veteran Cadre",
+    "detachment_category": "Auxillary",
+    "detachment_restriction": "",
+    "detachment_slots": [
+        {
+            "slot_type": "standard",
+            "unit_type": "Retinues"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Elites"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Heavy Transport"
+        }
+    ]
+}

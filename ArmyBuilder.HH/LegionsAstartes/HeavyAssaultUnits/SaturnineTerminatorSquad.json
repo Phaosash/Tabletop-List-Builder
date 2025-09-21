@@ -1,0 +1,128 @@
+{
+    "unit_name": "Saturnine Terminator Squad",
+    "base_cost": 200,
+    "composition": [
+        {
+            "name": "Saturnine Terminator Sergeant",
+            "quantity": 1
+        },
+        {
+            "name": "Saturnine Terminator",
+            "quantity": 2
+        }
+    ],
+    "additional_models": [
+        {
+            "cost": 60,
+            "maximumn": 3
+        }
+    ],
+    "stats": [
+        {
+            "unit": "Saturnine Terminator",
+            "M": 5,
+            "WS": 4,
+            "BS": 4,
+            "S": 4,
+            "T": 6,
+            "W": 3,
+            "I": 3,
+            "A": 2,
+            "LD": 8,
+            "CL": 8,
+            "WP": 7,
+            "IN": 7,
+            "SAV": "2+",
+            "INV": "4+"
+        },
+        {
+            "unit": "Saturnine Terminator Sergeant",
+            "M": 5,
+            "WS": 4,
+            "BS": 4,
+            "S": 4,
+            "T": 6,
+            "W": 3,
+            "I": 3,
+            "A": 2,
+            "LD": 8,
+            "CL": 8,
+            "WP": 7,
+            "IN": 7,
+            "SAV": "2+",
+            "INV": "4+"
+        }
+    ],
+    "default_wargear": [
+        {
+            "primary_weapon": "Plasma Bombard"
+        },
+        {
+            "secondary_weapon": "Saturnine Disruption Fist"
+        },
+        "Occulix Targeting Auspex",
+        "Thermal Diffraction Field"
+    ],
+    "special_rules": [
+        "Bulky 4+",
+        "Explodes (6+)",
+        "Implacable Advance",
+        "Slow and Purposeful"
+    ],
+    "traits": [
+        {
+            "allegiance": [
+                {
+                    "legions_Astartes": ""
+                },
+                {
+                    "Loyalty": ""
+                }
+            ]
+        },
+        "Legions Astartes"
+    ],
+    "unit_type": [
+        {
+            "name": "Saturnine Terminator Sergeant",
+            "type": "Infantry (Sergeant, Heavy)"
+        },
+        {
+            "name": "Saturnine Terminator",
+            "type": "Infantry (Heavy)"
+        }
+    ],
+    "upgrades": [
+        {
+            "description": "Any model in this unit may have its Saturnine Disruption Fist exchanged for one of the following:",
+            "choices": [
+                {
+                    "secondary_weapon": "Plasma bombard",
+                    "cost": 0
+                },
+                {
+                    "secondary_weapon": "Twin heavy disintegrator",
+                    "cost": 10
+                }
+            ]
+        },
+        {
+            "description": "Any model in this unit may have its plasma bombard exchanged for one:",
+            "choice": [
+                {
+                    "primary_weapon": "Twin heavy disintegrator",
+                    "cost": 10
+                }
+            ]
+        },
+        {
+            "description": "Any model in this unit with a Saturnine disruption fist may have one:",
+            "choice": [
+                {
+                    "upgrade": "Particle shredder",
+                    "cost": 5
+                }
+            ]
+        }
+    ]
+}

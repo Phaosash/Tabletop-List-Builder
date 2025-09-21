@@ -1,0 +1,39 @@
+{
+    "detachment_name": "Armoured Fist",
+    "detachment_category": "Auxiliary",
+    "detachment_restriction": "none",
+    "detachment_slots": [
+        {
+            "slot_type": "standard",
+            "unit_type": "Transport"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Transport"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Transport"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Transport"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Heavy Transport"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Heavy Transport"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Heavy Transport"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Heavy Transport"
+        }
+    ]
+}

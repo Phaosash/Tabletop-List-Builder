@@ -1,0 +1,20 @@
+{
+    "options": [
+        {
+            "name": "Two Sponson Mounted heavy bolters",
+            "cost": 0
+        },
+        {
+            "name": "Two Sponson Mounted heavy flamers",
+            "cost": 0
+        },
+        {
+            "name": "Two Sponson Mounted lascannon",
+            "cost": 20
+        },
+        {
+            "name": "Two Sponson Mounted volkite culverins",
+            "cost": 10
+        }
+    ]
+}

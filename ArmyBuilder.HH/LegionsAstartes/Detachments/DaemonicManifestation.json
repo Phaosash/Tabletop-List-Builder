@@ -1,0 +1,19 @@
+{
+    "detachment_name": "Daemonic Manifistation",
+    "detachment_category": "Auxillary",
+    "detachment_restriction": "Traitor",
+    "detachment_slots": [
+        {
+            "slot_type": "standard",
+            "unit_type": "Heavy Assault"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Heavy Assault"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Heavy Assault"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "detachment_name": "Recon Demi-Company",
+    "detachment_category": "Auxillary",
+    "detachment_restriction": "",
+    "detachment_slots": [
+        {
+            "slot_type": "prime",
+            "unit_type": "Recon"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Recon"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Recon"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Fast Attack"
+        }
+    ]
+}

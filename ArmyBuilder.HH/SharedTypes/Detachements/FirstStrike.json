@@ -1,0 +1,15 @@
+{
+    "detachment_name": "First Strike",
+    "detachment_category": "Auxiliary",
+    "detachment_restriction": "",
+    "detachment_slots": [
+        {
+            "slot_type": "standard",
+            "unit_type": "Fast Attack"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Fast Attack"
+        }
+    ]
+}

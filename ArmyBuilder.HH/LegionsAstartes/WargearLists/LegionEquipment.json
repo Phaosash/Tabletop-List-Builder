@@ -1,0 +1,12 @@
+{
+    "options": [
+        {
+            "name": "Nuncio-vox",
+            "cost": 10
+        },
+        {
+            "name": "Augury scanner",
+            "cost": 10
+        }
+    ]
+}

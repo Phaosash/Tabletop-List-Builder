@@ -1,0 +1,19 @@
+{
+    "detachment_name": "Combat Retinue Detachment",
+    "detachment_category": "Apex",
+    "detachment_restriction": "",
+    "detachment_slots": [
+        {
+            "slot_type": "prime",
+            "unit_type": "Retinue"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Retinue"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Retinue"
+        }
+    ]
+}

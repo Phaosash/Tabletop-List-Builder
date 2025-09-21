@@ -1,0 +1,75 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Detachements\AlliedDetachment.json" />
+    <None Remove="Detachements\ArmouredFist.json" />
+    <None Remove="Detachements\ArmouredSupport.json" />
+    <None Remove="Detachements\ArmyVanguard.json" />
+    <None Remove="Detachements\CombatPioneer.json" />
+    <None Remove="Detachements\CombatRetinue.json" />
+    <None Remove="Detachements\CrusadePrimary.json" />
+    <None Remove="Detachements\FirstStrike.json" />
+    <None Remove="Detachements\HeavySupport.json" />
+    <None Remove="Detachements\LordOfWar.json" />
+    <None Remove="Detachements\OfficerCadreDetachment.json" />
+    <None Remove="Detachements\ShockAssault.json" />
+    <None Remove="Detachements\TacticalSupport.json" />
+    <None Remove="Detachements\WarlordDetachment.json" />
+    <None Remove="Traits\CoreTraits.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Detachements\AlliedDetachment.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Detachements\ArmouredFist.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Detachements\ArmouredSupport.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Detachements\ArmyVanguard.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Detachements\CombatPioneer.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Detachements\CombatRetinue.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Detachements\CrusadePrimary.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Detachements\FirstStrike.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Detachements\HeavySupport.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Detachements\LordOfWar.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Detachements\OfficerCadreDetachment.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Detachements\ShockAssault.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Detachements\TacticalSupport.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Detachements\WarlordDetachment.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Traits\CoreTraits.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

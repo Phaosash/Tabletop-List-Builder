@@ -1,0 +1,36 @@
+{
+    "options": [
+        {
+            "name": "Combi-bolter",
+            "cost": 5
+        },
+        {
+            "name": "Combi-flamer",
+            "cost": 10
+        },
+        {
+            "name": "Combi-melta",
+            "cost": 10
+        },
+        {
+            "name": "Combi-plasma",
+            "cost": 10
+        },
+        {
+            "name": "Combi-volkite",
+            "cost": 10
+        },
+        {
+            "name": "Combi-grenade",
+            "cost": 10
+        },
+        {
+            "name": "Combi-disitegrator",
+            "cost": 10
+        },
+        {
+            "name": "Combi-grav",
+            "cost": 10
+        }
+    ]
+}

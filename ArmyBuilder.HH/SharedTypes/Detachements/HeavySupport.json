@@ -1,0 +1,11 @@
+{
+    "detachment_name": "Heavy Support",
+    "detachment_category": "Auxiliary",
+    "detachment_restriction": "",
+    "detachment_slots": [
+        {
+            "slot_type": "standard",
+            "unit_type": "War-Engine"
+        }
+    ]
+}

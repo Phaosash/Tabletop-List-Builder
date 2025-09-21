@@ -1,0 +1,32 @@
+{
+    "options": [
+        {
+            "name": "Chainsword",
+            "cost": 0
+        },
+        {
+            "name": "Chainaxe",
+            "cost": 0
+        },
+        {
+            "name": "Charnabal sabre",
+            "cost": 5
+        },
+        {
+            "name": "Power weapon",
+            "cost": 10
+        },
+        {
+            "name": "Thunder hammer",
+            "cost": 15
+        },
+        {
+            "name": "Power fist",
+            "cost": 15
+        },
+        {
+            "name": "Lightning claw",
+            "cost": 15
+        }
+    ]
+}

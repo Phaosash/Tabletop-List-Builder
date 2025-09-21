@@ -1,0 +1,84 @@
+{
+    "prime_traits": [
+        {
+            "trait_name": "Master Sergeant",
+            "trait_effect": [
+                {
+                    "affected_stat": "A",
+                    "attribute_bonus": 1
+                },
+                {
+                    "affected_stat": "WS",
+                    "attribute_bonus": 1
+                },
+                {
+                    "affected_stat": "LD",
+                    "attribute_bonus": 1
+                },
+                {
+                    "affected_stat": "Sub-Type",
+                    "attribute_bonus": "Champion"
+                }
+            ]
+        },
+        {
+            "trait_name": "Combat Veterans",
+            "trait_effect": [
+                {
+                    "affected_stat": "LD",
+                    "attribute_bonus": 1
+                },
+                {
+                    "affected_stat": "CL",
+                    "attribute_bonus": 1
+                },
+                {
+                    "affected_stat": "IN",
+                    "attribute_bonus": 1
+                },
+                {
+                    "affected_stat": "WP",
+                    "attribute_bonus": 1
+                },
+                {
+                    "max_stat_value": 10
+                }
+            ]
+        },
+        {
+            "trait_name": "Paragon of Battle",
+            "trait_effect": [
+                {
+                    "affected_stat": "A",
+                    "attribute_bonus": 1
+                },
+                {
+                    "affected_stat": "WS",
+                    "attribute_bonus": 1
+                },
+                {
+                    "affected_stat": "BS",
+                    "attribute_bonus": 1
+                }
+            ]
+        },
+        {
+            "trait_name": "Special Assignment",
+            "trait_effect": [
+                {
+                    "slot_type": "standard",
+                    "unit_type": "High Command"
+                }
+            ]
+        },
+        {
+            "trait_name": "Logistical Benefit",
+            "trait_effect": [
+                {
+                    "slot_type": "standard",
+                    "unit_type": "Any"
+                }
+            ]
+        }
+    ]
+}

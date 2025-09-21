@@ -1,0 +1,28 @@
+{
+    "options": [
+        {
+            "name": "flamer",
+            "cost": 5
+        },
+        {
+            "name": "plasma gun",
+            "cost": 10
+        },
+        {
+            "name": "meltagun",
+            "cost": 15
+        },
+        {
+            "name": "Volite charger",
+            "cost": 5
+        },
+        {
+            "name": "Volkite caliver",
+            "cost": 10
+        },
+        {
+            "name": "Rotor cannon",
+            "cost": 10
+        }
+    ]
+}

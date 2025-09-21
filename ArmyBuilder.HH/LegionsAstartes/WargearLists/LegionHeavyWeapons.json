@@ -1,0 +1,36 @@
+{
+    "options": [
+        {
+            "name": "Heavy bolter",
+            "cost": 10
+        },
+        {
+            "name": "Heavy flamer",
+            "cost": 10
+        },
+        {
+            "name": "Autocannon",
+            "cost": 20
+        },
+        {
+            "name": "Missile launcher",
+            "cost": 15
+        },
+        {
+            "name": "Multi-melta",
+            "cost": 25
+        },
+        {
+            "name": "Plasma cannon",
+            "cost": 20
+        },
+        {
+            "name": "Volkite culverin",
+            "cost": 15
+        },
+        {
+            "name": "Lascannon",
+            "cost": 25
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "detachment_name": "Lord of War Detachment",
+    "detachment_category": "Optional",
+    "detachment_restriction": "",
+    "detachment_slots": [
+        {
+            "slot_type": "standard",
+            "unit_type": "Lord of War"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Lord of War"
+        }
+    ]
+}

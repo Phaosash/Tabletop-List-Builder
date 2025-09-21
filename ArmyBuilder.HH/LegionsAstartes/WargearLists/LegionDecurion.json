@@ -1,0 +1,40 @@
+{
+    "decurion": [
+        {
+            "name": "Decurion Defensor",
+            "cost": [
+                {
+                    "unit_name": "Predator",
+                    "cost": 20
+                },
+                {
+                    "unit_name": "Sicaran",
+                    "cost": 20
+                },
+                {
+                    "unit_name": "Kratos Assault Tank",
+                    "cost": 30
+                }
+            ],
+            "special_rule": "Point Defence"
+        },
+        {
+            "name": "Decurion Locus",
+            "cost": [
+                {
+                    "unit_name": "Predator",
+                    "cost": 30
+                },
+                {
+                    "unit_name": "Sicaran",
+                    "cost": 30
+                },
+                {
+                    "unit_name": "Kratos Assault Tank",
+                    "cost": 40
+                }
+            ],
+            "special_rule": "Locus Strike"
+        }
+    ]
+}

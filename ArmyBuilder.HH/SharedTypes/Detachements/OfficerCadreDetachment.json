@@ -1,0 +1,15 @@
+{
+    "detachment_name": "Officer Cadre Detachment",
+    "detachment_category": "Apex",
+    "detachment_restriction": "none",
+    "detachment_slots": [
+        {
+            "slot_type": "prime",
+            "unit_type": "Command"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Command"
+        }
+    ]
+}

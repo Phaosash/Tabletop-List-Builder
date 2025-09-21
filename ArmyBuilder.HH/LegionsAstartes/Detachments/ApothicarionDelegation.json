@@ -1,0 +1,31 @@
+{
+    "detachment_name": "Apothicarion Delegation",
+    "detachment_category": "Auxillary",
+    "detachment_restriction": "",
+    "detachment_slots": [
+        {
+            "slot_type": "prime",
+            "unit_type": "Support"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Support"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Support"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Support"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Support"
+        },
+        {
+            "slot_type": "standard",
+            "unit_type": "Support"
+        }
+    ]
+}
