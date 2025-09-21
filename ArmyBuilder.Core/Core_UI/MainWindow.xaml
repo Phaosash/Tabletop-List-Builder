@@ -5,9 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Core_UI"
         xmlns:ctrls="clr-namespace:Core_UI.Views"
-        mc:Ignorable="d"
-        Title="Tabletop Army List Builder" Height="768" Width="1360">
+        mc:Ignorable="d" Title="Phalanx List Builder - Desktop"
+        Height="768" Width="1360">
     <Grid>
-        <ctrls:WelcomeScreen />
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        
+        <!--    Application Title   -->
+        <TextBlock Text="Phalanx List Builder" Grid.Row="0" FontSize="24" FontWeight="SemiBold"
+                   Margin="5" Typography.Capitals="SmallCaps" />
+
+        <!--    Legal Disclaimer (DO NOT DELETE)    -->
+        <TextBlock Grid.Row="2" Margin="5" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap"
+                   Text="This is an unofficial, personal-use tool. All trademarks and content belong to their respective owners."
+                   FontSize="12" />
+
+        <!--    Version Details -->
+        <TextBlock Text="Version: 1.0.0" FontSize="8" Grid.Row="2" Margin="5" 
+                   VerticalAlignment="Bottom" HorizontalAlignment="Right" />
+
+        <ctrls:WelcomeScreen Grid.Row="1" />
     </Grid>
 </Window>

@@ -5,61 +5,40 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Core_UI.Views"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="450" d:DesignWidth="1360">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0.33*" />
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="0.33*" />
-
         </Grid.ColumnDefinitions>
 
-        <Grid.RowDefinitions>
-            <RowDefinition Height="0.33*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="Auto" />
-        </Grid.RowDefinitions>
+        <ScrollViewer Grid.Column="1" VerticalScrollBarVisibility="Auto"
+                      HorizontalScrollBarVisibility="Disabled">
+            <StackPanel Orientation="Vertical">
+                <TextBlock Text="Available Builders:" FontSize="18" 
+                           FontWeight="SemiBold" Margin="5" />
 
-        <!--    Version Details -->
-        <TextBlock Text="Version: 1.0.0" FontSize="8" Grid.Column="0" Grid.Row="2" Margin="5" VerticalAlignment="Bottom" />
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <!--    HH Button   -->
+                    <Button Margin="5" MaxWidth="250" BorderThickness="0" 
+                            Background="Black" Cursor="Hand">
+                        <Image Source="/Images/HHLogo.png" Margin="5" />
+                    </Button>
 
-        <!--    Legal Disclaimer (DO NOT DELETE)    -->
-        <TextBlock Grid.Row="2" Grid.Column="1" Margin="5" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap"
-           Text="This is an unofficial, personal-use tool. All trademarks and content belong to their respective owners."
-           FontSize="12" />
+                    <!--    Armada Button   -->
+                    <Button Margin="5" IsEnabled="False" MaxWidth="250"
+                            Cursor="Hand">
+                        <Image Source="/Images/HHLogo.png" Margin="5" />
+                    </Button>
 
-        <Grid Grid.Column="1" Grid.Row="1">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
-
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-
-            <!--    Close Button    -->
-            <Button Content="Close" Grid.Column="2" Grid.Row="3" Margin="5" Padding="5"
-            VerticalAlignment="Bottom" HorizontalAlignment="Right" />
-
-            <!--    HH Button   -->
-            <Button Grid.Column="0" Grid.Row="0" Margin="5" />
-
-            <!--    Armada Button   -->
-            <Button Grid.Column="1" Grid.Row="0" Margin="5" IsEnabled="False" />
-
-            <!--    X-Wing Button   -->
-            <Button Grid.Column="2" Grid.Row="0" Margin="5" IsEnabled="False" />
-
-            <!--    Aeronautica Button  -->
-            <Button Grid.Column="0" Grid.Row="1" Margin="5" IsEnabled="False" />
-
-            <!--    Songs Button    -->
-            <Button Grid.Column="1" Grid.Row="1" Margin="5" IsEnabled="False" />
-        </Grid>
+                    <!--    X-Wing Button   -->
+                    <Button Margin="5" IsEnabled="False" MaxWidth="250"
+                            Cursor="Hand">
+                        <Image Source="/Images/HHLogo.png" Margin="5" />
+                    </Button>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </UserControl>
