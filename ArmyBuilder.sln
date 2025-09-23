@@ -22,10 +22,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Disclaimer.txt = Disclaimer.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SWAData", "ArmyBuilder.SWA\SWAData\SWAData.csproj", "{944AC576-FD31-4913-A9DD-CACB66359A30}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArmyBuilder.SWA", "ArmyBuilder.SWA", "{87723572-3A1D-4B94-B772-B907DF92BF97}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,10 +48,6 @@ Global
 		{EF3678E1-7B03-4FB9-B9DE-C498DBBABD23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF3678E1-7B03-4FB9-B9DE-C498DBBABD23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF3678E1-7B03-4FB9-B9DE-C498DBBABD23}.Release|Any CPU.Build.0 = Release|Any CPU
-		{944AC576-FD31-4913-A9DD-CACB66359A30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{944AC576-FD31-4913-A9DD-CACB66359A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{944AC576-FD31-4913-A9DD-CACB66359A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{944AC576-FD31-4913-A9DD-CACB66359A30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,7 +57,6 @@ Global
 		{DEC5DB7B-EE26-44C9-B8D2-6483190E8EC5} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{59CA6264-6047-425D-BC09-93D3DE54CD35} = {C410C130-6B21-4DD1-AFDF-D85753BCC3CE}
 		{EF3678E1-7B03-4FB9-B9DE-C498DBBABD23} = {C410C130-6B21-4DD1-AFDF-D85753BCC3CE}
-		{944AC576-FD31-4913-A9DD-CACB66359A30} = {87723572-3A1D-4B94-B772-B907DF92BF97}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {512C9804-5B61-47CE-A019-2D29F916233C}
