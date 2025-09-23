@@ -1,30 +1,35 @@
 {
     "detachment_name": "Allied Detachment",
     "detachment_category": "Optional",
-    "detachment_restriction": "",
+    "detachment_restriction": null,
     "detachment_slots": [
-
         {
+            "slot_id": "prime-command-1",
             "slot_type": "prime",
             "unit_type": "Command"
         },
         {
+            "slot_id": "standard-command-1",
             "slot_type": "standard",
             "unit_type": "Command"
         },
         {
+            "slot_id": "standard-troops-1",
             "slot_type": "standard",
             "unit_type": "Troops"
         },
         {
+            "slot_id": "standard-troops-2",
             "slot_type": "standard",
             "unit_type": "Troops"
         },
         {
+            "slot_id": "prime-troops-1",
             "slot_type": "prime",
             "unit_type": "Troops"
         },
         {
+            "slot_id": "standard-troops-3",
             "slot_type": "standard",
             "unit_type": "Troops"
         }

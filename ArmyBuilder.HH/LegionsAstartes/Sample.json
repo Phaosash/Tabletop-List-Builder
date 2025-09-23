@@ -1,0 +1,34 @@
+[
+    {
+        "id": "valdor",
+        "name": "Shield-Captain Valdor",
+        "faction": "Legio Custodes",
+        "allegiance": "Loyalist",
+        "unitSize": {
+            "min": 1,
+            "max": 1
+        },
+        "basePoints": 175,
+        "forceOrgSlot": "Warlord",
+        "availableUpgradeIds": [
+            "paragon-blade",
+            "misericordia"
+        ]
+    },
+    {
+        "id": "custodian-guard-squad",
+        "name": "Custodian Guard Squad",
+        "faction": "Legio Custodes",
+        "allegiance": "Loyalist",
+        "unitSize": {
+            "min": 5,
+            "max": 10
+        },
+        "basePoints": 45,
+        "forceOrgSlot": "Elites",
+        "availableUpgradeIds": [
+            "guardian-spear",
+            "storm-shield"
+        ]
+    }
+]
